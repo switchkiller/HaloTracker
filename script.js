@@ -1,5 +1,5 @@
-var data = {"labels": ["12 December", "13 December", "14 December", "15 December", "16 December", "17 December", "18 December"], "datasets": [{"languages": [[], [], [], [], [], ["Python", "Other"], ["Python", "JavaScript", "HTML"]], "pointHighlightFill": "#fff", "fillColor": "rgba(151,187,205,0.2)", "pointHighlightStroke": "rgba(151,187,205,1)", "time": [" 0 secs", " 0 secs", " 0 secs", " 0 secs", " 0 secs", "53 mins", "2 hrs 39 mins"], "pointColor": "rgba(151,187,205,1)", "strokeColor": "rgba(151,187,205,1)", "pointStrokeColor": "#fff", "data": [0.0, 0.0, 0.0, 0.0, 0.0, 0.8852777777777778, 2.653888888888889], "label": "Dataset"}]};
-var totalTime = "3 hours 32 minutes";
+var data = {"labels": ["13 December", "14 December", "15 December", "16 December", "17 December", "18 December", "19 December"], "datasets": [{"languages": [[], [], [], [], ["Python", "Other"], ["Python", "JavaScript", "HTML"], []], "pointHighlightFill": "#fff", "fillColor": "rgba(151,187,205,0.2)", "pointHighlightStroke": "rgba(151,187,205,1)", "time": [" 0 secs", " 0 secs", " 0 secs", " 0 secs", "53 mins", "3 hrs 3 mins", " 0 secs"], "pointColor": "rgba(151,187,205,1)", "strokeColor": "rgba(151,187,205,1)", "pointStrokeColor": "#fff", "data": [0.0, 0.0, 0.0, 0.0, 0.8852777777777778, 3.069722222222222, 0.0], "label": "Dataset"}]};
+var totalTime = "3 hours 57 minutes";
 var languages = ["Python", "JavaScript", "HTML"];
 var ctx = document.getElementById("chart").getContext("2d");
 var myLineChart = new Chart(ctx).Line(data, {
